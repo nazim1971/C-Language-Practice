@@ -29,6 +29,9 @@ void arr()
            // printf("  %d  ", arr[x][y]);
 
             sum+=arr[x][y];
+            if(arr[x][y]% 2==0) printf("\n All Even Numbers= %d",arr[x][y]);
+            else{
+                    printf("\n All Odd Numbers= %d",arr[x][y]); }
         }
         printf("\n");
        //Print Last Col
